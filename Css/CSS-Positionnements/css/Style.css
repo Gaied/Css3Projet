@@ -1,0 +1,33 @@
+div {
+    border : 1px solid blue;
+}
+span{
+     border : 1px solid red;
+}
+
+.ib{
+    border: 3px solid orange;
+    width: 100px;
+    height: 100px;
+    /*display:block;
+    visibility: hidden;*/
+    display: inline-block;
+    vertical-align: top;
+}
+.relatif{
+    border : 3px solid purple;
+    position: relative;
+    top: 12px;
+    left: 10px;
+    margin-left: 10px;
+    margin-top: 15px; 
+}
+.absolu{
+    border: 3px solid cyan;
+    background: rgba(0,255,255,.5);
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 2px;
+    left: 0px;
+}

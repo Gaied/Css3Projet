@@ -1,0 +1,43 @@
+body{
+    background-color: lightblue;
+    background-image: url(../img/font1.jpg);
+    background-size: cover;
+    background-position: top center;
+    
+    /*font type de police comme Arial*/
+    font-family:sans-serif;
+    font-size: 100%;
+    
+}
+#cookies{
+    border: 5px solid blue;
+    width: 50%;
+    height: 220px;
+    background: rgba(0,0,255,0.5);
+        /*overflow:scroll;*/
+    /*espace entre la bordure et l'écréture*/
+    padding: 20px auto;
+    box-sizing: border-box;
+    /*espace endre la page de navigateur et votre bordure */
+    margin: 20px;
+    border-radius: 50px 100px;
+    box-shadow: 2px 2px 10px 5px rgba(2,4,5,10);   
+    transition: all 1s linear;
+    animation: animal 3s infinite;
+}
+#cookies>h1{
+    font-family: 'Indie Flower', cursive;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
+}
+#cookies:hover{
+    min-height: 400px;
+    background: white;
+    color: blue
+}
+@keyframes{
+    50%{
+        min-height: 50%;
+    }
+}
