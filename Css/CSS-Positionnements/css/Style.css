@@ -31,3 +31,29 @@ span{
     top: 2px;
     left: 0px;
 }
+.fixe{
+     border: 3px solid magenta;
+    background: rgba(0,255,255,.5);
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    top: 2px;
+    left: 0px;
+}
+.flottant{
+    border: 2px ;
+    float:left;
+    width: 500px;
+    left: 400px;
+}
+.clearer{
+    clear: both;
+}
+.flexbox {
+    background: lightgray;
+    margin: 50px;
+    height: 100px;
+  display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
